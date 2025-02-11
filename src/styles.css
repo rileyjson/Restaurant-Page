@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-size: 2.0em;
+}
+
+nav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    border-bottom: none;
+    height: 12vh;
+    
+}
+
+.about-card {
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    border: none;
+    width: 40%;
+    height: 50%;
+    top: 40vh;
+    left: 30vw;
+    background: rgba(60, 69, 69, 0.5);
+    color: white;
+    font-size: 30px;
+}
+
+.our-mission {
+    display: flex;
+    background-color: antiquewhite;
+    height: 75vh;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: solid 1px black
+}
+
+.intro-text {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.our-mission-text {
+    width: 50%;
+    font-size: 2em;
+}
+
+.hours-text {
+    width: 50%;
+    font-size: 2em;
+}
+
+
+img {
+    width:100%;
+}
+
+
+.hours {
+    background-color: rgb(173, 164, 164);
+   display: flex;
+   flex-direction: column;
+}
+
